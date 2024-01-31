@@ -20,6 +20,7 @@ if (isset($_GET['rid'])) {
         $Workshop_name = $result[3];
         $Workshop_Organiser = $result[4];
         $Workshop_date = $result[5];
+        $avatar = ($result[6] == '') ? "https://i.stack.imgur.com/34AD2.jpg" : $result[6];
     }
 }
 ?>
