@@ -2,7 +2,7 @@
 $show_detail = FALSE;
 
 if (isset($_GET['rid'])) {
-    $reference_id = $_GET['rid'];
+    $certificate_number = $_GET['rid'];
 
     $result  = [];
     if (($handle = fopen("user.csv", "r")) !== FALSE) {
@@ -19,12 +19,11 @@ if (isset($_GET['rid'])) {
         }
         fclose($handle);
         // var_dump($result);
-        $certificate_number = $result[1];
-        $Name = $result[2];
-        $College_Name  = $result[3];
-        $Workshop_name = $result[4];
-        $Workshop_Organiser = $result[5];
-        $Workshop_date = $result[6];
+        $Name = $result[1];
+        $College_Name  = $result[2];
+        $Workshop_name = $result[3];
+        $Workshop_Organiser = $result[4];
+        $Workshop_date = $result[5];
     }
 }
 ?>
