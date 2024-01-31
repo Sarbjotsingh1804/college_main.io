@@ -7,10 +7,6 @@ if (isset($_GET['rid'])) {
     $result  = [];
     if (($handle = fopen("user.csv", "r")) !== FALSE) {
         while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
-            // echo "reference_id = " . $reference_id;
-            // echo "<br>";
-            // echo "data[0] = " . $data[0];
-            // echo "<hr>";
             if ($data[0] === $Certificate_Number) {
                 $show_detail = TRUE;
                 $result = $data;
