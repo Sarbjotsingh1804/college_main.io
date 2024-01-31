@@ -2,7 +2,7 @@
 $show_detail = FALSE;
 
 if (isset($_GET['rid'])) {
-    $certificate_number = $_GET['rid'];
+    $Certificate_Number = $_GET['rid'];
 
     $result  = [];
     if (($handle = fopen("user.csv", "r")) !== FALSE) {
