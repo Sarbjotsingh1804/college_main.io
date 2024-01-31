@@ -1,0 +1,50 @@
+@media only screen and  (max-width :998px) {
+    html{
+        font-size: 100%;
+    }
+}
+@media only screen and  (max-width :768px) {
+    html{
+        font-size: 75%;
+    }
+}
+
+@media only screen and  (max-width :552px) {
+    .registerdetails div{
+        display: block;
+    }
+    html{
+        font-size: 68%;
+    }
+    
+}
+@media only screen and  (max-width :449px) {
+    html{
+        font-size: 55%;
+    }
+}
+
+@media only screen and  (max-width :359px) {
+    html{
+        font-size: 35%;
+    }
+}
+
+@media only screen and  (max-width :203px) {
+    html{
+        font-size: 25%;
+    }
+}
+
+
+
+@media only screen and  (max-width :540px){
+    .member-details h3{
+        font-size:.4rem;
+        display: ruby-base-container;
+    }
+    .member-details strong{
+        font-size: .7rem;
+    }
+
+}
