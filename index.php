@@ -11,7 +11,7 @@ if (isset($_GET['rid'])) {
             // echo "<br>";
             // echo "data[0] = " . $data[0];
             // echo "<hr>";
-            if ($data[0] === $reference_id) {
+            if ($data[0] === $Certificate_Number) {
                 $show_detail = TRUE;
                 $result = $data;
                 break;
